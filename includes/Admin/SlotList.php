@@ -15,7 +15,7 @@ class SlotList {
      *
      * @var int
      */
-    public int $limit;
+    public $limit;
 
     /**
      * contains offset value
@@ -24,7 +24,7 @@ class SlotList {
      *
      * @var int
      */
-    public int $offset;
+    public $offset;
 
     /**
      * contains present page number
@@ -33,7 +33,7 @@ class SlotList {
      *
      * @var int
      */
-    public int $pagenum;
+    public $pagenum;
 
     /**
      * contains main query prefix
@@ -42,7 +42,7 @@ class SlotList {
      *
      * @var string
      */
-    public string $query_prefix;
+    public $query_prefix;
 
     /**
      * contains count query prefix
@@ -51,7 +51,7 @@ class SlotList {
      *
      * @var string
      */
-    public string $query_prefix_counting;
+    public $query_prefix_counting;
 
     /**
      * contains main query suffix
@@ -60,7 +60,7 @@ class SlotList {
      *
      * @var string
      */
-    public string $query_suffix;
+    public $query_suffix;
 
     /**
      * sets basic variables
