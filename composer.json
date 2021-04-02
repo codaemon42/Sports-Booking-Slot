@@ -1,0 +1,14 @@
+{
+    "name": "naim/sports-booking-slot",
+    "description": "a composer json for reactions plugin wordpress",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ONSBKS_Slots\\Includes\\": "includes/"
+        },
+        "files": ["includes/functions.php"]
+    }
+}
